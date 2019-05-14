@@ -4,11 +4,11 @@ var xpos, //<>//
 var canJump1=true, 
   canJump2=true, 
   stage1=true, 
-  hasWon, 
-  isDead;
+  hasWon=false, 
+  isDead=false;
 var speed =2.777, 
-  flight, 
-  gravity;
+  flight=0, 
+  gravity=0;
 
 var flag1=true, 
   flag2=true, 
